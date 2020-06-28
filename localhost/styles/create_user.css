@@ -1,0 +1,99 @@
+.personal{
+    margin-top:10%;
+    margin-left:5%;
+    width:40%;
+  }
+
+.personal-item{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.personal-item {
+    padding-left:30px;
+    width:90%;
+}
+
+.label{
+    width:30%;
+}
+
+.input{
+    width:70%;
+}
+
+.input input,select{
+    width:100%;
+    height:20px;
+    margin-bottom:5px;
+}
+
+.input button{
+margin-bottom:5px;
+}
+
+.button{
+    width:90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button{
+    cursor: pointer;
+    width:60px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right:10px;
+}
+
+.button button:focus{
+    outline: none;
+}
+
+.errors{
+    color:red;
+}
+
+.create{
+width:95% ;
+text-align: right;
+padding:20px 0 30px 30px;
+}
+
+.create a{
+    text-decoration: none;
+    color: rgba(61, 62, 63, 0.911);
+    font-size: 20px;
+}
+
+.users{
+    width:100%;
+   display:flex;
+   justify-content: center;
+}
+.users table{
+    width:95%;
+border:2px solid black;
+border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .users button{
+      cursor: pointer;
+      border-radius: 10px;
+      height:25px;
+      width:70px;
+  }
+
+  .users button:focus{
+    outline: none;
+  }
+ 
